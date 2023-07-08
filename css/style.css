@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(../fonts/Anton-Regular.ttf) format('truetype');
+    /* Outras propriedades opcionais, como font-weight e font-style, podem ser adicionadas aqui */
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf) format('truetype');
+    /* Outras propriedades opcionais, como font-weight e font-style, podem ser adicionadas aqui */
+}
+
+@font-face {
+    font-family: 'Poppins-bold';
+    src: url(../fonts/Poppins-Bold.ttf) format('truetype');
+    /* Outras propriedades opcionais, como font-weight e font-style, podem ser adicionadas aqui */
+}
+
+html,
+body {
+    
+    background-image: linear-gradient(to top, #439eff, #d9dfdb);
+    height: 100%;
+}
+
+.titulos {
+    color: #144064;
+    font-family: 'Anton', sans-serif;
+}
+
+.textos {
+    color: #144064;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+}
+
+.textos-adm {
+    color: #144064;
+    font-family: 'Poppins-bold', sans-serif;
+    font-size: 19px;
+}
+
+.full-height {
+    height: 100%;
+    position: relative;
+}
+
+.background-image {
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 55%;
+    /* Defina a largura da imagem */
+    min-height: 50%;
+    /* Defina a altura da imagem */
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura da div pai */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse a altura da div pai */
+    background-image: url(../images/logo.png);
+    background-size: cover;
+}
