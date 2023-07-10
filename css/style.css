@@ -41,10 +41,8 @@ body {
 }
 
 .full-height {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    position: relative;
 }
 
 .background-image {
@@ -54,14 +52,18 @@ body {
 }
 
 .overlay-image {
-    width: 55%;
-    height: auto;
-    max-width: 100%;
-    max-height: 50%;
-    background-image: url(../images/logo.png);
-    background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    min-width: 55%;
+    /* Defina a largura da imagem */
+    min-height: 50%;
+    /* Defina a altura da imagem */
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura da div pai */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse a altura da div pai */
+    background-image: url(../images/logo.png);
+    background-size: cover;
 }
