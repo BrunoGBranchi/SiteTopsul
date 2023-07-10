@@ -19,7 +19,7 @@
 html,
 body {
     
-    /*background-image: linear-gradient(to top, #439eff, #d9dfdb);*/
+    background-image: linear-gradient(to top, #439eff, #d9dfdb);
     height: 100%;
 }
 
@@ -53,7 +53,7 @@ body {
 
 .overlay-image {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     min-width: 55%;
