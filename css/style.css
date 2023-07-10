@@ -64,6 +64,5 @@ body {
     /* Garante que a imagem não ultrapasse a largura da div pai */
     max-height: 100%;
     /* Garante que a imagem não ultrapasse a altura da div pai */
-    background-image: url(../images/logo.png);
     background-size: cover;
 }
